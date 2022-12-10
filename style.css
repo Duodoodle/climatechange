@@ -1,0 +1,88 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    z-index: 1;
+    top: -60px; /* Hide the navbar 50 px outside of the top view */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position:fixed;
+  }
+  
+  a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float:left;
+  }
+  
+  a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+  body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+  /* Full height image header */
+  .bgimg-1 {
+  /* The image used */
+  background-image: url("https://images.unsplash.com/photo-1482685945432-29a7abf2f466?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1489&q=80");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  .w3-bar .w3-button {
+    padding: 16px;
+  }
+  div {
+    padding: 8px;
+  }
+  
+  h1 {
+    text-align: Left;
+    text-transform: uppercase;
+    color: #000000;
+  }
+
+  #img1{
+    height:auto;
+    float:left;
+    padding-bottom: 10%;
+    padding-right: 5%;
+  }
+  #img2{
+    position:absolute;
+    height:auto;
+    float:left;
+    padding-right: 5%;
+    padding-bottom: 20%;
+  }
+
+  #home{
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
