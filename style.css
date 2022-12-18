@@ -7,9 +7,9 @@ body, html {
     background-color: #333;
     position: fixed;
     z-index: 1;
-    top: -60px; /* Hide the navbar 50 px outside of the top view */
-    width: 100%; /* Full width */
-    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    top: -60px;
+    width: 100%; 
+    transition: top 0.3s;
   }
   ul {
     list-style-type: none;
@@ -66,13 +66,14 @@ body, html {
   }
 
   #img1{
+    position:static;
     height:auto;
     float:left;
     padding-bottom: 10%;
     padding-right: 5%;
   }
   #img2{
-    position:absolute;
+    position:static;
     height:auto;
     float:left;
     padding-right: 5%;
