@@ -7,3 +7,7 @@ function scrollFunction() {
     document.getElementById("navbar").style.top = "-60px";
   }
 }
+
+function alert() {
+ alert("You're already on the home page!"); 
+}
